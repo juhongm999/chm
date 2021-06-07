@@ -47,7 +47,7 @@ python test.py --ktype {psi, iso, full}
                --benchmark {spair, pfpascal, pfwillow} 
                --load 'path_to_trained_model'
 ```
-For examples, to reproduce our results in Table 1, run following scripts.
+For example, to reproduce our results in Table 1, refer following scripts.
 ```bash
 python test.py --ktype psi --benchmark spair --load 'path_to_trained_model/spr_psi.pt'
 python test.py --ktype psi --benchmark spair --load 'path_to_trained_model/pas_psi.pt'
