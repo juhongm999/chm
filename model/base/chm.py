@@ -37,7 +37,7 @@ def fast4d(corr, kernel, bias=None):
 
 def fast6d(corr, kernel, bias, diagonal_idx):
     r""" Optimized implementation of 6D convolutional Hough matching
-         NOTE: this function only supports with kernel size of (3, 3, 5, 5, 5, 5).
+         NOTE: this function only supports kernel size of (3, 3, 5, 5, 5, 5).
     r"""
     bsz, _, s6d, s6d, s4d, s4d, s4d, s4d = corr.size()
     _, _, ks6d, ks6d, ks4d, ks4d, ks4d, ks4d = kernel.size()
