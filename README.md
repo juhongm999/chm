@@ -58,10 +58,12 @@ python test.py --ktype psi --benchmark pfwillow --load 'path_to_trained_model/pa
 ## BibTeX
 If you use this code for your research, please consider citing:
 ````BibTeX
-@InProceedings{min2021chm,
-    title={Convolutional Hough Matching Networks},
-    author={Juhong Min and Minsu Cho},
-    booktitle={CVPR},
-    year={2021}
+@InProceedings{min2021chm, 
+    author    = {Min, Juhong and Cho, Minsu},
+    title     = {Convolutional Hough Matching Networks},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {2940-2950}
 }
 ````
