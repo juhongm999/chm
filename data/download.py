@@ -77,8 +77,9 @@ def download_dataset(datapath, benchmark):
     if not os.path.isdir(datapath):
         os.mkdir(datapath)
 
-    file_data = {
-        'spair': ('1s73NVEFPro260H1tXxCh1ain7oApR8of', 'SPair-71k'),
+    file_data = {        
+        # 'spair': ('1s73NVEFPro260H1tXxCh1ain7oApR8of', 'SPair-71k') old version
+        'spair': ('1KSvB0k2zXA06ojWNvFjBv0Ake426Y76k', 'SPair-71k'),
         'pfpascal': ('1OOwpGzJnTsFXYh-YffMQ9XKM_Kl_zdzg', 'PF-PASCAL'),
         'pfwillow': ('1tDP0y8RO5s45L-vqnortRaieiWENQco_', 'PF-WILLOW')
     }
