@@ -3,6 +3,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/convolutional-hough-matching-networks/semantic-correspondence-on-pf-willow)](https://paperswithcode.com/sota/semantic-correspondence-on-pf-willow?p=convolutional-hough-matching-networks)
 
 # Convolutional Hough Matching Networks
+Update 09/14/21: Our paper has been extended for journal submission [[link](https://arxiv.org/abs/2109.05221)]. The code will be updated soon.
+
 This is the implementation of the paper "Convolutional Hough Matching Network" by J. Min and M. Cho. Implemented on Python 3.7 and PyTorch 1.3.1.
 
 ![](https://juhongm999.github.io/pic/chm.png)
