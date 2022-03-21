@@ -11,6 +11,10 @@ This is the implementation of the paper "Convolutional Hough Matching Network" b
 
 For more information, check out project [[website](http://cvlab.postech.ac.kr/research/CHM/)] and the paper on [[arXiv](https://arxiv.org/abs/2103.16831)]
 
+## Web Demo
+
+Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/taesiri/ConvolutionalHoughMatchingNetworks)
+
 ### Overall architecture:
 
 ![](https://juhongm999.github.io/pic/chm_architecture.png)
