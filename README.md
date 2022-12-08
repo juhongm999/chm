@@ -37,6 +37,7 @@ conda install -c anaconda requests
 conda install -c conda-forge tensorflow
 pip install tensorboardX
 conda install -c anaconda pandas
+conda install -c anaconda "pillow<7"
 ```
 
 ## Training	
